@@ -1,4 +1,4 @@
-# Flow Lines
+# Driffy
 
 A calm little web game: draw glowing lines and watch a ball of light ride them. No score, no lives, no game over. Built to quiet a busy mind for a few minutes, the way a bike ride does.
 
@@ -8,10 +8,10 @@ A calm little web game: draw glowing lines and watch a ball of light ride them. 
 npm install
 npm run dev          # http://localhost:3000
 npm run build && npm start   # production build (service worker + offline play on)
-npm run build:standalone     # one self-contained file: dist/flow-lines.html
+npm run build:standalone     # one self-contained file: dist/driffy.html
 ```
 
-Deploy to Vercel as-is (`vercel` or import the repo). Once served over HTTPS, phones can "Add to Home Screen" and it opens full-screen, offline-ready.
+Deploy to Vercel as-is (`vercel` or import the repo). Set `NEXT_PUBLIC_SITE_URL` to your live domain (e.g. `https://driftline-indol.vercel.app`) so the canonical URL, sitemap and social cards point at it. Once served over HTTPS, phones can "Add to Home Screen" and it opens full-screen, offline-ready.
 
 ## How to play
 

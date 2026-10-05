@@ -50,7 +50,7 @@ export function Home({ mode, reducedMotion, dust, onMode, onStart, onSettings, o
 
       <div className="home-head">
         <p className="kicker">A calm little game</p>
-        <h1 id="home-title" className="title">Flow Lines</h1>
+        <h1 id="home-title" className="title">Driffy</h1>
         <p className="lede">Draw a line. Watch it ride.</p>
       </div>
 

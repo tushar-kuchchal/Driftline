@@ -81,6 +81,7 @@ export const useFlowStore = create<FlowState>()(
       setBall: (ball) => set({ ball }),
     }),
     {
+      // Storage key predates the Driffy rename; changing it would wipe players' saved progress.
       name: 'flow-lines',
       version: 1,
       storage: createJSONStorage(() => safeStorage),

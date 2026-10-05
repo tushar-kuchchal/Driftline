@@ -1,4 +1,4 @@
-// Bundles the game into one self-contained HTML file: dist/flow-lines.html
+// Bundles the game into one self-contained HTML file: dist/driffy.html
 import { build } from 'esbuild';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
@@ -21,7 +21,7 @@ const html = `<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0B1026">
-<title>Flow Lines</title>
+<title>Driffy</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap">
@@ -34,5 +34,5 @@ const html = `<!doctype html>
 </html>`;
 
 await mkdir('dist', { recursive: true });
-await writeFile('dist/flow-lines.html', html);
-console.log(`dist/flow-lines.html (${(html.length / 1024).toFixed(0)} kB)`);
+await writeFile('dist/driffy.html', html);
+console.log(`dist/driffy.html (${(html.length / 1024).toFixed(0)} kB)`);

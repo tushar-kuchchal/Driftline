@@ -1,4 +1,4 @@
-// Entry for the single-file build (dist/flow-lines.html): same App, no Next.js.
+// Entry for the single-file build (dist/driffy.html): same App, no Next.js.
 import { createRoot } from 'react-dom/client';
 import App from '../components/App';
 

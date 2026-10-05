@@ -1,5 +1,5 @@
-// Flow Lines service worker: makes the game playable offline after the first visit.
-const CACHE = 'flow-lines-v1';
+// Driffy service worker: makes the game playable offline after the first visit.
+const CACHE = 'driffy-v1';
 const PRECACHE = ['/', '/manifest.webmanifest', '/icon.svg', '/icon-192.png', '/icon-512.png'];
 
 self.addEventListener('install', (event) => {

@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Flow Lines',
-    short_name: 'Flow Lines',
-    description: 'Draw a line. Watch it ride.',
+    name: 'Driffy',
+    short_name: 'Driffy',
+    description: 'A calm, relaxing game: draw a line and watch a ball of light ride it.',
     start_url: '/',
     display: 'standalone',
     orientation: 'portrait',

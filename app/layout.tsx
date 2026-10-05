@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: { card: 'summary_large_image', title: SITE_TITLE, description: SITE_DESCRIPTION },
   robots: { index: true, follow: true },
+  verification: { google: '3ktP96SEbJeXkANueoLcD-Vp78QQzI9zjEw_ZE1gi84' },
   category: 'games',
   appleWebApp: { capable: true, title: SITE_NAME, statusBarStyle: 'black-translucent' },
   icons: { icon: '/icon.svg', apple: '/icon-192.png' },
